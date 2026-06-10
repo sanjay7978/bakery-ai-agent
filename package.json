@@ -1,0 +1,20 @@
+{
+  "name": "bakerymate",
+  "version": "1.0.0",
+  "description": "AI-powered bakery shopping and ordering assistant.",
+  "main": "backend/index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "nodemon --ignore node_modules backend/index.js",
+    "seed": "node backend/seed.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

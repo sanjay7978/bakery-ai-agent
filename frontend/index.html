@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BakeryMate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="chat-panel" aria-label="BakeryMate chat">
+        <header class="chat-header">
+          <div class="brand-mark" aria-hidden="true">BM</div>
+          <div>
+            <h1>BakeryMate</h1>
+            <p>Sweet Dreams Bakery</p>
+          </div>
+        </header>
+
+        <div class="quick-actions" aria-label="Quick actions">
+          <button type="button" data-prompt="Show me your menu">Menu</button>
+          <button type="button" data-prompt="What are your hours?">Hours</button>
+          <button type="button" data-prompt="Do you deliver?">Delivery</button>
+        </div>
+
+        <div id="messages" class="messages" aria-live="polite"></div>
+
+        <form id="chatForm" class="composer">
+          <input
+            id="messageInput"
+            type="text"
+            name="message"
+            autocomplete="off"
+            placeholder="Ask about cakes, breads, or place an order..."
+            aria-label="Message"
+          />
+          <button type="submit" aria-label="Send message">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

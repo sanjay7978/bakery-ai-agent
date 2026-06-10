@@ -1,0 +1,11 @@
+product_id,product_name,category,price,description,image_filename,available
+B001,Chocolate Truffle Cake,Cakes,650,Rich chocolate sponge layered with silky truffle ganache,choco_truffle.jpg,true
+B002,Vanilla Cream Cake,Cakes,550,Soft vanilla sponge with whipped cream and delicate vanilla notes,vanilla_cream.jpg,true
+B003,Black Forest Cake,Cakes,700,Chocolate cake with cream cherries and chocolate shavings,black_forest.jpg,true
+B004,Red Velvet Cake,Cakes,750,Velvety cocoa cake with smooth cream cheese frosting,red_velvet.jpg,true
+B005,Butter Croissant,Pastries,80,Flaky golden croissant made with buttery laminated dough,croissant.jpg,true
+B006,Chocolate Eclair,Pastries,90,Choux pastry filled with cream and finished with chocolate glaze,eclair.jpg,true
+B007,Sourdough Loaf,Breads,200,Naturally fermented loaf with a crisp crust and tangy crumb,sourdough.jpg,true
+B008,Garlic Herb Bread,Breads,120,Fresh bread baked with garlic butter and fragrant herbs,garlic_bread.jpg,true
+B009,Choco Chip Cookies (6 pcs),Cookies,120,Six crisp-edged cookies packed with chocolate chips,choco_cookies.jpg,true
+B010,Almond Shortbread (6 pcs),Cookies,150,Six buttery shortbread cookies with toasted almond crunch,almond_shortbread.jpg,true
