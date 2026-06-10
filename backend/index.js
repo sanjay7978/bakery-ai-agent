@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const path = require('path');
 const express = require('express');
-const { getAIReply, isOrderConfirmed, getPendingOrder, clearPendingOrder } = require('./gemini');
+const { getAIReply, isOrderConfirmed, getPendingOrder, clearPendingOrder } = require('./openrouter');
 const { getProducts, getOrders, saveOrder } = require('./database');
 
 const app = express();

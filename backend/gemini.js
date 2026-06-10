@@ -170,6 +170,8 @@ async function getAIReply(message, sessionId = 'default') {
     return reply;
   } catch (error) {
     console.error(`[${new Date().toISOString()}] Gemini error`, error);
+    console.error("GEMINI ERROR:");
+    console.error(error);
     const reply = fallbackReply(message, sessionId);
     history.push({ role: 'user', parts: [{ text: message }] });
     history.push({ role: 'model', parts: [{ text: reply }] });
