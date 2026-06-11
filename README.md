@@ -287,7 +287,7 @@ npm run seed    # Populate database with menu items
 
 ---
 
-## 🙏 Built With
+##  Built With
 
 - [OpenRouter](https://openrouter.ai) — AI model gateway
 - [Meta Llama 3.3 70B](https://openrouter.ai/meta-llama/llama-3.3-70b-instruct) — AI model
