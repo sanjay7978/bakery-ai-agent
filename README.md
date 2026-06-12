@@ -1,6 +1,5 @@
 <div align="center">
 
-<!-- Animated Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=BakeryMate%20🎂&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20Bakery%20Shopping%20%26%20Ordering%20Assistant&descAlignY=58&descSize=18" width="100%"/>
 
 <!-- Badges -->
