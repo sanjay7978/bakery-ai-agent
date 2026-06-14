@@ -47,7 +47,7 @@
 | 🛍️ | Continued refining the bakery ordering workflow and user experience |
 | 📄 | Improved GitHub repository structure and documentation for easier setup |
 
----
+------
 
 ## ✨ What is BakeryMate?
 
